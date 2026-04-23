@@ -13,3 +13,13 @@ Jeg fortsettet å jobbe med nettsiden der jeg skulle legge inn produktene mine, 
 UKE 3:
 Jeg fortsettet ferdig Manga siden mitt da fortsettet jeg med Produkt siden mitt der alle merchandise for typ One piece toys kunne ligge som var enkelt, alt jeg gjorde var å kopiere den forrige siden til denne og forandre bildene. Tilslutt så lagde jeg en footer der mine sosiale medier og github kunne ligge.
 Når jeg ble ferdig med frontend så gikk jeg til backend, først så startet jeg opp mariadb i ubuntu som jeg klarte å gjøre ved å bruke mariadb -u root -p som gjør at du skal skrive username: -u og passord: -p.
+
+
+
+
+FORDYPNING:
+
+Jeg tok cybersecurity som fordypningen min der jeg hadde jobbet med Tryhackme oppgaver <img width="1891" height="881" alt="image" src="https://github.com/user-attachments/assets/1612b5b5-f0ac-4da1-8b59-edb1e61846b0" />
+Når jeg hadde gjort noe oppgaver så tenkte jeg hvordan jeg kunne knytte nettbutikk med hacking, jeg fant ut en ide om å finne en løsning om hvis det kunne ha skjedd at noen skulle ha hacket nettbutikken min. 
+
+Hvis noen hadde hacket nettbutikken min og tatt inn anonnser som ville ha skadet nettsiden (meste parten bare i HTML/JS) så ville jeg ha gått inn på koden min, skjekket rundt script og slettet meste av de som er ukjent (som kanskje jeg ikke ha lagt in) og laste opp en backup bare i tilfelle. Hvis hackeren har fortsatt tilgang i nettbutikk så er det best å bare bytte passord og aktivere 2FA.
