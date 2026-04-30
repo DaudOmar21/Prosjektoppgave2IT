@@ -23,3 +23,17 @@ Jeg tok cybersecurity som fordypningen min der jeg hadde jobbet med Tryhackme op
 Når jeg hadde gjort noe oppgaver så tenkte jeg hvordan jeg kunne knytte nettbutikk med hacking, jeg fant ut en ide om å finne en løsning om hvis det kunne ha skjedd at noen skulle ha hacket nettbutikken min. 
 
 Hvis noen hadde hacket nettbutikken min og tatt inn anonnser som ville ha skadet nettsiden (meste parten bare i HTML/JS) så ville jeg ha gått inn på koden min, skjekket rundt script og slettet meste av de som er ukjent (som kanskje jeg ikke ha lagt in) og laste opp en backup bare i tilfelle. Hvis hackeren har fortsatt tilgang i nettbutikk så er det best å bare bytte passord og aktivere 2FA.
+
+PROSJEKT/PRØVEEKSAMEN:
+
+Jeg hadde begynt på databaser og flask og når jeg hadde gått in på vs code og lagt sql så dukket det opp at sql var U - Untracked, dette var et problem fordi githuben min kunne ikke godskjenne denne filen og jeg måtte pushe filen deretter in til github. <img width="600" height="800" alt="Image (16)" src="https://github.com/user-attachments/assets/7bd283ef-20fd-4acf-9763-8bd345a6c150" />
+
+Da fikset jeg probleme ved å gå gjennom vs code terminalet og deretter finne filen og pushe den inn til github: <img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/d5513ee7-81aa-4f0d-a807-0b79d2082504" />
+
+Database tabeller:
+users – brukere med hashet passord
+products – manga og merchandise
+cart – handlekurv (kobler user ↔ product)
+orders – fullførte bestillinger
+order_items – produkter i hver ordre
+
