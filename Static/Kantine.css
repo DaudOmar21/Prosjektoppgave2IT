@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;600&display=swap');
+
+:root {
+    --red: #ff3e1d;
+}
+
+* {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+header {
+    position: fixed;
+    top: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 93%;
+    background: #ffffff;
+    border-radius: 5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem 3rem;
+}
+
+header .logo {
+    font-size: 2.7rem;
+    color: #333;
+    font-weight: 600;
+}
+
+#menu {
+    font-size: 3rem;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+#menu.fa-times {
+    transform: rotate(180deg);
+}
+
+header .navbar ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+header .navbar ul li a {
+    font-size: 2rem;
+    color: #333;
+}
+
+header .navbar ul li a:hover,
+header .navbar ul li a.active {
+    color: var(--red);
+}
+
+
+section {
+    min-height: 100vh;
+    padding: 0 7%;
+    padding-top: 15rem;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    background:
+        linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+        url('./Shonen_jump.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+    color: white;
+}
+
+.home .content h3 {
+    color: var(--red);
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.home .content p {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 3rem;
+}
+
+.home .btn {
+    background: var(--red);
+    color: white;
+    padding: 12px 32px;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.home .btn:hover {
+    background: transparent;
+    border: 1px solid var(--red);
+    color: var(--red);
+}
+
+.home .image {
+    flex: 1 1 45rem;
+    display: flex;
+    justify-content: center;
+}
+
+.home .image img {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+
+.produkt {
+    background: #eee;
+    padding-bottom: 5rem;
+}
+
+.produkt .Piece {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color: goldenrod
+}
+
+
+
+
+.produkt .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.produkt .box {
+    background: #fff;
+    padding: 2rem;
+    border: .1rem solid rgba(0,0,0,.1);
+    width: 30rem;
+    text-align: center;
+}
+
+.produkt .box img {
+    height: 15rem;
+    object-fit: cover;
+}
+
+.produkt .box:hover {
+    box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
+}
+
+.box .btn{
+    background: var(--red);
+    color: white;
+    padding: 7px 27px;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.box .btn:hover {
+    background: transparent;
+    border: 1px solid var(--red);
+    color: var(--red);
+}
+
+
+.toy {
+    background: #eee;
+    padding-bottom: 5rem;
+}
+
+.toy .Piece {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color: goldenrod
+}
+
+
+
+
+.toy .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.toy .box {
+    background: #fff;
+    padding: 2rem;
+    border: .1rem solid rgba(0,0,0,.1);
+    width: 30rem;
+    text-align: center;
+}
+
+.toy .box img {
+    height: 15rem;
+    object-fit: cover;
+}
+
+.toy .box:hover {
+    box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
+}
+
+.toy .btn{
+    background: var(--red);
+    color: white;
+    padding: 7px 27px;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.toy .btn:hover {
+    background: transparent;
+    border: 1px solid var(--red);
+    color: var(--red);
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.footer .share a{
+    font-size: 2rem;
+    color: #000000;
+    margin: 2rem;
+}
+
+.footer .share a:hover{
+    color:#ff0000;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer .credit{
+    color: #000000;
+    font-size: 3rem;
+    padding: 2rem 1rem;
+}
+.footer .credit a{
+    color: var(--red);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    #menu {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 110%;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        border-radius: 1rem;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        overflow: hidden;
+
+        transform: scaleY(0);
+        opacity: 0;
+        transform-origin: top;
+        transition: .3s ease;
+    }
+
+    header .navbar.nav-toggle {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    header .navbar ul {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 0;
+    }
+
+    header .navbar ul li a {
+        padding: 1.5rem 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+    .home .content{
+        text-align: center;
+    }
+}
+@media (max-width: 400px) {
+
+    html{
+        font-size: 50%;
+    }
+
+}
