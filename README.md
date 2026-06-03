@@ -1,5 +1,6 @@
 BRUKERVEILEDNING
 
+God IT-støtte handler om å guide brukeren før de gjør feil.
 
 Steg 1: Finn din favorittmanga:
 Her ser du et utvalg av produktene våre i nettbutikken:
