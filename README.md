@@ -1,13 +1,12 @@
 BRUKERVEILEDNING
 
-### Brukerveiledning for handlekurv
 
-**Steg 1: Finn din favorittmanga**
+Steg 1: Finn din favorittmanga:
 Her ser du et utvalg av produktene våre i nettbutikken:
+<img width="1831" height="392" alt="image" src="https://github.com/user-attachments/assets/21a8f1cb-c324-4e8d-927c-ef7c26215cc3" />
 
-![Produktvisning på forsiden]({{ url_for('static', filename='ONEPIECE_VOLUME1.jpg') }})
 
-**Steg 2: Legg varen i handlekurven**
+Steg 2: Legg varen i handlekurven:
 Klikk på den oransje **Add to Cart**-knappen under produktet for å gå videre.
 
 
