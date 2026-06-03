@@ -1,7 +1,8 @@
 BRUKERVEILEDNING
 
 Steg 1: Finn din favorittmanga. 
-<img width="454" height="367" alt="image" src="https://github.com/user-attachments/assets/11dc93a6-26e5-4e9a-aa4b-effd5b33f5ad" />
+<img width="708" height="376" alt="image" src="https://github.com/user-attachments/assets/673eaf9a-a5ac-4f28-a7a0-b61f28729cba" />
+
 
 Steg 2: Klikk 'Add to Cart'. 
 <img width="195" height="59" alt="image" src="https://github.com/user-attachments/assets/1036b080-adcf-41e5-877d-84ead6e762f1" />
